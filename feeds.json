@@ -1,0 +1,32 @@
+{
+  "feeds": [
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/rss",
+      "keywords": ["sqlite", "node.js", "webhook", "ai", "llm", "typescript", "postgres", "pricing", "startup"],
+      "enabled": true
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "keywords": ["actions", "copilot", "security", "api", "webhook"],
+      "enabled": true
+    },
+    {
+      "id": "tldr-tech",
+      "name": "TLDR Tech",
+      "url": "https://tldr.tech/api/rss/tech",
+      "keywords": ["ai", "llm", "api", "database", "startup", "funding"],
+      "enabled": true
+    }
+  ],
+  "telegram": { "chatId": "687053516" },
+  "ntfy": { "server": "https://ntfy.sh", "topic": "aksel-rss-digest-n8m3p" },
+  "digest": {
+    "max_items": 8,
+    "min_score": 1,
+    "send_even_if_empty": false
+  }
+}
